@@ -1,0 +1,48 @@
+{
+  "button": {
+    "icon": {
+      "width": {
+        "value": "{size.36}",
+        "type": "sizing"
+      }
+    }
+  },
+  "chat": {
+    "default": {
+      "transcribing": {
+        "dot": {
+          "height": {
+            "value": "{size.4}",
+            "type": "sizing"
+          },
+          "width": {
+            "value": "{size.4}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  },
+  "data": {
+    "grid": {
+      "header": {
+        "row": {
+          "cell": {
+            "height": {
+              "value": "{size.26}",
+              "type": "sizing"
+            }
+          }
+        }
+      }
+    }
+  },
+  "scrollbar": {
+    "track": {
+      "width": {
+        "value": "{size.18}",
+        "type": "sizing"
+      }
+    }
+  }
+}

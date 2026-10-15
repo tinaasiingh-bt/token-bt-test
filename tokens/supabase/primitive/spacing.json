@@ -1,0 +1,10 @@
+{
+  "spacing": {
+    "negative": {
+      "10xs": {
+        "value": "-24px",
+        "type": "other"
+      }
+    }
+  }
+}

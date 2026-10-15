@@ -1,0 +1,30 @@
+{
+  "file": {
+    "upload": {
+      "border": {
+        "style": {
+          "value": "{border.style.dashed}",
+          "type": "borderWidth"
+        }
+      }
+    }
+  },
+  "scrollbar": {
+    "track": {
+      "border": {
+        "radius": {
+          "value": "{size.6}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  },
+  "width": {
+    "modal": {
+      "border": {
+        "value": "{border.width.xs}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

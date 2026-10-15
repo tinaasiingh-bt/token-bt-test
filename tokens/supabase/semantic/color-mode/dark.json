@@ -1,0 +1,57 @@
+{
+  "border": {
+    "transparent": {
+      "value": "{transparent}",
+      "type": "color"
+    }
+  },
+  "chart": {
+    "disabled": {
+      "legend": {
+        "item": {
+          "value": "{Black.600}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "severity": {
+    "info": {
+      "value": "{Blue.50}",
+      "type": "color"
+    }
+  },
+  "status": {
+    "error": {
+      "value": "{Red.50}",
+      "type": "color"
+    },
+    "informational": {
+      "value": "{Blue.50}",
+      "type": "color"
+    },
+    "success": {
+      "value": "{Green.100}",
+      "type": "color"
+    },
+    "warning": {
+      "value": "{Orange.275}",
+      "type": "color"
+    }
+  },
+  "elevation": {
+    "outline": {
+      "default": {
+        "value": {
+          "x": "{X.0}",
+          "y": "{Y.0}",
+          "blur": "{blur.none}",
+          "spread": "{spread.1}",
+          "color": "{Black.400}",
+          "type": "dropShadow"
+        },
+        "type": "color"
+      }
+    }
+  }
+}

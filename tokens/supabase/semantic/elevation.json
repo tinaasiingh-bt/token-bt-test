@@ -1,0 +1,17 @@
+{
+  "elevation": {
+    "outline": {
+      "focus": {
+        "value": {
+          "x": "{X.0}",
+          "y": "{Y.0}",
+          "blur": "{blur.none}",
+          "spread": "{spread.2}",
+          "color": "{Orange.400}",
+          "type": "dropShadow"
+        },
+        "type": "color"
+      }
+    }
+  }
+}
