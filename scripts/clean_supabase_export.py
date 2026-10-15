@@ -144,7 +144,7 @@ def main():
     for light in [s for s in quarantine if s.lower().endswith('color-mode/light')]:
         dark = light[:-5] + 'dark'
         L = set(leaves(quarantine[light])); D = set(leaves(quarantine.get(dark, {})))
-        for p in sorted(L ^ D): rep['parity'].append((light if p in L else dark, p, 'quarantine, one mode only'))
+        for p in sorted(L ^ D): rep['parity_q'].append((light if p in L else dark, p, 'quarantine, one mode only'))
 
     # $metadata: base order + quarantine sets; $themes untouched
     meta_path = os.path.join(a.tokens, '$metadata.json')
@@ -170,6 +170,7 @@ def main():
     section('Type changes to existing tokens', rep['type_changes'], ['set', 'token', 'before', 'after'])
     section('Light/dark parity problems introduced by this import', rep['parity'], ['set', 'token', 'issue'])
     section('Light/dark parity problems already in tokens/ (not blocking)', rep['parity_pre'], ['set', 'token', 'issue'])
+    section('Quarantined tokens present in one mode only (not blocking, never pushed)', rep['parity_q'], ['set', 'token', 'issue'])
     section(f'Quarantined to `{a.quarantine}/` (not in tokens/, not in any theme)', rep['quarantined'], ['set', 'token', 'value', 'exporter note'])
     section('Tokens in tokens/ missing from export (kept as-is)', rep['missing'], ['set', 'token', 'value'])
     section('Exporter notes stripped from descriptions', rep['notes'], ['set', 'token', 'note'])
