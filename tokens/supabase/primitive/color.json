@@ -1,0 +1,32 @@
+{
+  "ash": {
+    "50": {
+      "value": "#f8f9f9",
+      "type": "color"
+    }
+  },
+  "orange": {
+    "250": {
+      "value": "#f3c781",
+      "type": "color"
+    },
+    "350": {
+      "value": "#f39681",
+      "type": "color"
+    },
+    "450": {
+      "value": "#c67839",
+      "type": "color"
+    }
+  },
+  "turquoise": {
+    "150": {
+      "value": "#00c5d3",
+      "type": "color"
+    },
+    "250": {
+      "value": "#55f4fc",
+      "type": "color"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "font": {
+    "family": {
+      "open": {
+        "sans": {
+          "value": "Open Sans",
+          "type": "fontFamilies"
+        }
+      }
+    }
+  },
+  "line": {
+    "height": {
+      "6xl": {
+        "value": "1.222",
+        "type": "lineHeights"
+      },
+      "7xl": {
+        "value": "1.2",
+        "type": "lineHeights"
+      }
+    }
+  }
+}

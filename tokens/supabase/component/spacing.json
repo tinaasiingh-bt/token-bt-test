@@ -1,0 +1,42 @@
+{
+  "accordion": {
+    "content": {
+      "padding": {
+        "value": "{spacing.11xl}",
+        "type": "spacing"
+      }
+    }
+  },
+  "data": {
+    "grid": {
+      "inner": {
+        "cell": {
+          "spacing": {
+            "value": "{spacing.negative.8xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "dropdown": {
+    "filter": {
+      "margin": {
+        "right": {
+          "value": "{spacing.4xl}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "toast": {
+    "default": {
+      "button": {
+        "margin": {
+          "value": "{spacing.5xs}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

@@ -20,6 +20,18 @@
     "component/border-radius",
     "component/size",
     "component/typography",
-    "component/spacing"
+    "component/spacing",
+    "supabase/component/border-radius",
+    "supabase/component/color-mode/dark",
+    "supabase/component/color-mode/light",
+    "supabase/component/size",
+    "supabase/component/spacing",
+    "supabase/primitive/color",
+    "supabase/primitive/shadow",
+    "supabase/primitive/spacing",
+    "supabase/primitive/typography",
+    "supabase/semantic/color-mode/dark",
+    "supabase/semantic/color-mode/light",
+    "supabase/semantic/elevation"
   ]
 }

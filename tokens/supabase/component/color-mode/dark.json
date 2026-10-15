@@ -1,0 +1,128 @@
+{
+  "button": {
+    "danger": {
+      "outline": {
+        "active": {
+          "background": {
+            "color": {
+              "value": "{Rose.275}",
+              "type": "color"
+            }
+          }
+        },
+        "hover": {
+          "background": {
+            "color": {
+              "value": "{Rose.250}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "filled": {
+      "primary": {
+        "background": {
+          "focus": {
+            "value": "{Sky-blue.200}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Sky-blue.200}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "hover": {
+            "value": "{Black.950}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "primary": {
+      "text": {
+        "active": {
+          "icon": {
+            "color": {
+              "value": "{Sky-blue.300}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "calendar": {
+    "today": {
+      "number": {
+        "text": {
+          "value": "{Sky-blue.100}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "filter": {
+    "tag": {
+      "background": {
+        "value": "{Black.950}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{Black.400}",
+        "type": "color"
+      }
+    }
+  },
+  "tab": {
+    "border": {
+      "selected": {
+        "value": "{Sky-blue.100}",
+        "type": "color"
+      }
+    }
+  },
+  "data": {
+    "grid": {
+      "default": {
+        "header": {
+          "text": {
+            "color": {
+              "value": "{Black.50}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": {
+    "severity": {
+      "undetermined": {
+        "container": {
+          "background": {
+            "color": {
+              "value": "{Stone.200}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "time": {
+    "picker": {
+      "selected": {
+        "list": {
+          "border": {
+            "color": {
+              "value": "{Black.950}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}
